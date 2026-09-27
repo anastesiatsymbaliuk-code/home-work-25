@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            border: 1px solid rgba(59, 59, 59, 0.753);
+            border-radius: 10px;
+        }
+        .product__title {
+            margin: 20px 0 6px 0;
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.884);
+            text-decoration: underline 1px rgba(0, 0, 0, 0.7);
+        }
+        .product__category{
+            margin: 0 0 6px 0;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .product__price {
+            font-size: 14px;
+        }
+        .product__discount {
+            font-size: 14px;
+            color: rgb(207, 51, 51);
+        }
+        .product__inStock {
+            font-size: 14px;
+        }
+        .product__rating {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul id="catalog" class="catalog"></ul>
+    <script src="/data.js"></script>
+</body>
+</html>
+
